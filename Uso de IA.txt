@@ -1,0 +1,3 @@
+Uso de IA
+
+- Se uso Inteligencia artificial para ajustar bien el archivo pom.xml con los propiedades y dependencias correctas para Junit.
