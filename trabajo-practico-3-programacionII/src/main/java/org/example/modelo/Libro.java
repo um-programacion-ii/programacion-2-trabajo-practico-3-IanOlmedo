@@ -1,6 +1,10 @@
 package org.example.modelo;
 
+import lombok.Getter;
 import org.example.estados.EstadoLibro;
+
+
+
 
 public class Libro {
     private String isbn;
