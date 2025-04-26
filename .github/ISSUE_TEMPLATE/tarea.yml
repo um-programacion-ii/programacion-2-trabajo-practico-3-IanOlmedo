@@ -39,10 +39,10 @@ body:
       label: Etapa / Milestone
       description: Seleccioná a qué etapa del trabajo pertenece esta tarea
       options:
-        - Etapa 1 - Diseño Base y Principios SOLID
-        - Etapa 2 - Gestión de Recursos y Colecciones
-        - Etapa 3 - Sistema de Préstamos y Reservas
-        - Etapa 4 - Reportes y Análisis
+        - Milestone 1: Configuración Inicial y Pruebas Básicas
+        - Milestone 2: Implementación del Catálogo
+        - Milestone 3: Sistema de Préstamos
+        - Milestone 4: Sistema de Usuarios
     validations:
       required: true
 
