@@ -39,6 +39,16 @@
       <version>1.18.30</version>
       <scope>provided</scope>
     </dependency>
+
+    <!-- Dependecia de mokito -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>5.2.0</version>
+      <scope>test</scope>
+    </dependency>
+
+
   </dependencies>
 
   <build>
