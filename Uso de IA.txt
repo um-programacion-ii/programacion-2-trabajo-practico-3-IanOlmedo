@@ -1,3 +1,9 @@
 Uso de IA
 
-- Se uso Inteligencia artificial para ajustar bien el archivo pom.xml con los propiedades y dependencias correctas para Junit.
+Se uso Inteligencia artificial para:
+
+- Ajustar bien el archivo pom.xml con los propiedades y dependencias correctas para Junit.
+- Agregar las dependencias de lombook y mock.
+- Ver como era aplicable el uso de mock.
+- Uso de assertThrows(IllegalArgumentException.class, () -> (en los test)
+
