@@ -11,7 +11,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class PrestamoTest {
-    
+
     @Mock
     private Catalogo catalogo;
 
