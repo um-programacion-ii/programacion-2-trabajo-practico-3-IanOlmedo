@@ -13,7 +13,7 @@ import org.mockito.MockitoAnnotations;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-class GestionUsuariosTest {
+class UsuariosTest {
 
     @Mock
     private Catalogo catalogo;
@@ -40,20 +40,21 @@ class GestionUsuariosTest {
         gestionUsuarios.registrarPrestamo("45716948", "123-123");
 
         verify(gestorPrestamos).prestarLibro("123-123");
-        assertEquals(1, gestionUsuarios.getUsuarios().get("usuario1").getHistorialPrestamos().size());
+        assertEquals(1, gestionUsuarios.getUsuarios().get("45716948").getHistorialPrestamos().size());
     }
 
     @Test
     void testRegistrarUsuarioExistente() {
+
         assertThrows(IllegalArgumentException.class, () -> {
-            gestionUsuarios.registrarUsuario("26442785", "Roberto", "Olmedo");
+            gestionUsuarios.registrarUsuario("45716948", "Roberto", "Olmedo");
         });
     }
 
     @Test
     void testRegistrarPrestamoUsuarioInexistente() {
         assertThrows(IllegalArgumentException.class, () -> {
-            gestionUsuarios.registrarPrestamo("Rafa Polinesio", "123-123");
+            gestionUsuarios.registrarPrestamo("26442785", "123-123");
         });
     }
 }

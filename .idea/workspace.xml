@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6705160-42ea-45a3-a917-6bb2314c3937" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trabajo-practico-3-programacionII/src/main/java/org/example/gestores/GestorUsuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trabajo-practico-3-programacionII/src/main/java/org/example/modelo/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trabajo-practico-3-programacionII/src/test/java/org/example/UsuariosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uso de IA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Uso de IA.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajo-practico-3-programacionII/src/test/java/org/example/PrestamoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajo-practico-3-programacionII/src/test/java/org/example/PrestamoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajo-practico-3-programacionII/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/trabajo-practico-3-programacionII/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajo-practico-3-programacionII/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trabajo-practico-3-programacionII/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajo-practico-3-programacionII/src/test/java/org/example/UsuariosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajo-practico-3-programacionII/src/test/java/org/example/UsuariosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,55 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CatalogoTest.buscarPorIsbn.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CatalogoTest.testBuscarPorIsbninexistente.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LibroTest.testCrearLibroValido.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/Prestamos&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ian/Documentos/Ian Um/ProgramacionII/tp_3/programacion-2-trabajo-practico-3-IanOlmedo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CatalogoTest.buscarPorIsbn.executor": "Run",
+    "JUnit.CatalogoTest.executor": "Run",
+    "JUnit.CatalogoTest.testBuscarPorIsbninexistente.executor": "Run",
+    "JUnit.LibroTest.executor": "Run",
+    "JUnit.LibroTest.testCrearLibroValido.executor": "Run",
+    "JUnit.PrestamoTest.executor": "Run",
+    "JUnit.PrestamoTest.testPrestarLibro.executor": "Run",
+    "JUnit.UsuariosTest.executor": "Run",
+    "JUnit.UsuariosTest.testRegistrarPrestamo.executor": "Run",
+    "JUnit.UsuariosTest.testRegistrarPrestamoUsuarioInexistente.executor": "Run",
+    "JUnit.UsuariosTest.testRegistrarUsuarioExistente.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/evidencia-tests",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ian/Documentos/Ian Um/ProgramacionII/tp_3/programacion-2-trabajo-practico-3-IanOlmedo",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.LibroTest.testCrearLibroValido">
-    <configuration name="CatalogoTest.buscarPorIsbn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CatalogoTest" />
-      <option name="METHOD_NAME" value="buscarPorIsbn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatalogoTest.testBuscarPorIsbninexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CatalogoTest" />
-      <option name="METHOD_NAME" value="testBuscarPorIsbninexistente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="JUnit.UsuariosTest.testRegistrarPrestamoUsuarioInexistente">
     <configuration name="LibroTest.testCrearLibroValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
@@ -100,11 +79,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrestamoTest.testPrestarLibro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PrestamoTest" />
+      <option name="METHOD_NAME" value="testPrestarLibro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuariosTest.testRegistrarPrestamo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UsuariosTest" />
+      <option name="METHOD_NAME" value="testRegistrarPrestamo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuariosTest.testRegistrarPrestamoUsuarioInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UsuariosTest" />
+      <option name="METHOD_NAME" value="testRegistrarPrestamoUsuarioInexistente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuariosTest.testRegistrarUsuarioExistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UsuariosTest" />
+      <option name="METHOD_NAME" value="testRegistrarUsuarioExistente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsuariosTest.testRegistrarPrestamoUsuarioInexistente" />
+        <item itemvalue="JUnit.UsuariosTest.testRegistrarUsuarioExistente" />
+        <item itemvalue="JUnit.UsuariosTest.testRegistrarPrestamo" />
+        <item itemvalue="JUnit.PrestamoTest.testPrestarLibro" />
         <item itemvalue="JUnit.LibroTest.testCrearLibroValido" />
-        <item itemvalue="JUnit.CatalogoTest.testBuscarPorIsbninexistente" />
-        <item itemvalue="JUnit.CatalogoTest.buscarPorIsbn" />
       </list>
     </recent_temporary>
   </component>
